@@ -1,0 +1,50 @@
+#kk{
+    background: linear-gradient(to top,#3333ff 0%, #33ccff 100%);
+}
+#l{
+    background: linear-gradient(to bottom, #3333ff 0%, #33ccff 100%);
+}
+.home{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+  }
+  h2{
+    font-family: 'Roboto Mono', monospace;
+  }
+  body{
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/756/966/415/landscape-nature-beach-sea-wallpaper-preview.jpg');
+    background-attachment: fixed;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+#ll {
+        --angle: 0deg;
+        border: 1rem solid;
+        border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #f64f59) 1;
+        animation: 5s rotate linear infinite;
+    }
+
+    @keyframes rotate {
+        to {
+            --angle: 360deg;
+        }
+    }
+
+    @property --angle {
+        syntax: '<angle>';
+        initial-value: 0deg;
+        inherits: false;
+    }
