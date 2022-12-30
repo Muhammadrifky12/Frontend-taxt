@@ -1,0 +1,30 @@
+#p {
+    background: linear-gradient(to top, #3366ff 0%, #ccffff 100%);
+}
+#pp {
+    background: linear-gradient(to bottom, #3366ff 0%, #ccffff 100%);
+}
+body{
+    background-image: url('http://m.gettywallpapers.com/wp-content/uploads/2022/08/Windows-11-4k-Wallpaper-1536x864.jpg');
+    background-attachment: fixed;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+#kakak {
+    --angle: 0deg;
+    border: 1rem solid;
+    border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #f64f59) 1;
+    animation: 5s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
