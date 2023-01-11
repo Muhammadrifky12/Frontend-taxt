@@ -66,37 +66,6 @@ body {
     background: #FF8A65
 }
 
-.dark_mode_btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 1.5em;
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none
-}
-
-.dark_mode_active {
-    background: #1c1c25
-}
-
-.dark_mode_active button {
-    color: #ddd
-}
-
-.dark_mode_active #clear,
-#equalTo {
-    color: #000
-}
-
-.dark_mode_active #result {
-    color: #ddd
-}
-
-.dark_mode_active #history {
-    color: #ddd
-}
 
 #history {
     position: absolute;
